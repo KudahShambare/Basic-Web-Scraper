@@ -15,14 +15,16 @@ app.use(bodyParser.json())
 //use path to access fies
 const __dirname=path.resolve();
 
-
+app.use(express.static("frontend"));
 
 
 
 //routes
+/*
 app.get("/",(req,resp)=>{
-	resp.sendFile(__dirname+"/index.html");
+	resp.sendFile(__dirname+"/frontend/index.html");
 })
+*/
 
 app.post("/url",(req,resp)=>{
 
