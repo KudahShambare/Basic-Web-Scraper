@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "kuda": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +20,8 @@
     "node-fetch": "^3.2.10",
     "path": "^0.12.7",
     "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
