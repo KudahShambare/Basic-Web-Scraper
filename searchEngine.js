@@ -2,7 +2,7 @@ import * as DDG from 'duck-duck-scrape';
 
 export const duckSearch = async (searchQuery) =>{
 
-    const searchResults = await DDG.search('kudakwashe shambare fide', {
+    const searchResults = await DDG.search(searchQuery, {
         safeSearch: DDG.SafeSearchType.STRICT
       });
 
@@ -12,11 +12,6 @@ export const duckSearch = async (searchQuery) =>{
 }
 
 
-const search = duckSearch("mugabe")
-console.log(search.then((val)=>{
-  console.log(val);
-  
-}));
 
 
 
