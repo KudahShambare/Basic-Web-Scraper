@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	<title>Blog To File</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Blog to File</title>
+   
 </head>
 <body>
-<h1>Blog Paragraphs To File </h1>
-
-<h3> Please paste the URL of a blog post which you want to download as a pdf file in the input field below: </h3>
-
-<form method="post" action="/url">
-
-<input type="text" name="url" placeholder="Search Here"/>
-<button type="submit">Create File</button>
-  </form>
-
+    <h1>Blog Paragraphs to File</h1>
+    <h3>Paste the URL of a blog post to download it as a PDF file:</h3>
+    <form method="post" action="/url">
+        <input type="text" name="url" placeholder="Enter Blog URL Here" aria-label="Blog URL Input" required />
+        <button type="submit">Create PDF File</button>
+    </form>
+    <footer>
+        &copy; 2025 Blog To File. All rights reserved.
+    </footer>
 </body>
 </html>
