@@ -20,6 +20,7 @@
     "fs": "^0.0.1-security",
     "meilisearch": "^0.44.1",
     "node-fetch": "^3.2.10",
+    "node-readability": "^3.0.0",
     "path": "^0.12.7",
     "pdfkit": "^0.13.0"
   },

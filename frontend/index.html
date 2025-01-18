@@ -11,9 +11,12 @@
     <h1>Blog Paragraphs to File</h1>
     <h3>Paste the URL of a blog post to download it as a PDF file:</h3>
     <form method="post" action="/url">
-        <input type="text" name="url" placeholder="Enter Blog URL Here" aria-label="Blog URL Input" required />
-        <button type="submit">Create PDF File</button>
+        <input type="text" id="url" name="url" placeholder="Enter Blog URL Here" aria-label="Blog URL Input" required />
+        <button id="add">Add another URL</button>
+
+        <button id="submit">Create PDF File</button>
     </form>
+    <script defer src="script.js"></script>
     <footer>
         &copy; 2025 Blog To File. All rights reserved.
     </footer>
