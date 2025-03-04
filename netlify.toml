@@ -1,9 +1,10 @@
 [build]
-  functions = "functions"
+  publish = "frontend"  # This folder contains your static files
+  functions = "functions"  # This is where your serverless functions are located
 
 [dev]
   framework = "#custom"
-  command = "node functions/index.cjs"  # Adjust if your entry file is different
-  targetPort = 3000  # The port your Express server listens on
-  port = 8888  # The port Netlify Dev runs on
+  command = "node functions/index.cjs"
+  targetPort = 3000
+  port = 8888
   autoLaunch = false
