@@ -1,0 +1,9 @@
+[build]
+  functions = "functions"
+
+[dev]
+  framework = "#custom"
+  command = "node functions/index.cjs"  # Adjust if your entry file is different
+  targetPort = 3000  # The port your Express server listens on
+  port = 8888  # The port Netlify Dev runs on
+  autoLaunch = false
